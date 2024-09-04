@@ -28,6 +28,11 @@ O projeto segue a seguinte estrutura de componentes:
 
 - **Equipe 4**: Henrique, Roberto Lucas e Railan
 
+## Rotas da API
+- **GET**: /books: Retorna a lista de todos os livros.
+- **GET**: /books/{id}: Retorna os detalhes de um livro específico pelo ID.
+- **PUT**: /books: Atualiza os dados de um livro existente.
+
 ## Inicialização do Banco de Dados
 
 Para inicializar o banco de dados utilizando o Docker, execute o seguinte comando:

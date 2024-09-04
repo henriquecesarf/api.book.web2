@@ -27,3 +27,10 @@ O projeto segue a seguinte estrutura de componentes:
 ## Equipe
 
 - **Equipe 4**: Henrique, Roberto Lucas e Railan
+
+## Inicialização do Banco de Dados
+
+Para inicializar o banco de dados utilizando o Docker, execute o seguinte comando:
+
+```bash
+docker run --name mariadb-container -e MYSQL_ROOT_PASSWORD=minhasenha -e MYSQL_DATABASE=meubanco -d -p 3306:3306 mariadb:latest
